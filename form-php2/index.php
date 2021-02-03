@@ -64,8 +64,8 @@ mysqli_query($connection,$sql);
 <body>
     <div class="container">
         <form action="index.php" method="POST">
-            Username<input type="text" name="username" placeholder="Enter username"><br>
-            Email<input type="email" name="email" placeholder="Enter email"><br>
+            Username<input type="text" name="username" placeholder="Enter username" required><br>
+            Email<input type="email" name="email" placeholder="Enter email" required><br>
             Gender<select name="gender" id="">
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
