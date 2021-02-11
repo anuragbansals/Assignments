@@ -42,3 +42,12 @@ tr:nth-child(even){
 #row3{
     color: purple;
 }
+td:hover{
+    /* background-color: coral; */
+    /* color: bisque; */
+    background-color: coral;
+    color: white;
+}
+td{
+    transition: 0.5s;
+}
