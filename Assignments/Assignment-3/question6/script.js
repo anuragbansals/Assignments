@@ -1,4 +1,3 @@
-var num1 = Number(prompt("Enter first number"))
-var num2 = Number(prompt("Enter second number"));
-var sum = num1 + num2;
-document.write('Sum is '+sum);
+var firstName = prompt("Enter first name")
+var lastName = prompt("Enter last name");
+document.write('Welcome '+firstName +' ' + lastName + ' to the World of Web');
