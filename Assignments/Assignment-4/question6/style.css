@@ -1,0 +1,22 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+} 
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+#bulb2{
+    position: absolute;
+    left: 0;
+    /* visibility: hidden; */
+
+}
+
+#bulb1{
+    position: relative;
+    /* visibility: visible; */
+}
